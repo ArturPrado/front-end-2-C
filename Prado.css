@@ -1,0 +1,59 @@
+body{
+    background-image: url(https://img.freepik.com/vetores-premium/jogador-de-volei-masculino-voando-para-acertar-a-bola-silhueta-abstrata-de-vetor_9955-1140.jpg);
+    background-repeat: no-repeat;
+    background-position-y: 600px;
+    background-position-x: 850px;
+    background-size: 1200px;
+}
+  
+.a{
+    text-align: center;
+}
+.b{
+    text-align: center;
+    border-style: outset;
+    border-color: black;
+}
+
+.titulo{
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .inicio {
+    background-color: #04AA6D;
+  }
+  
+  footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
